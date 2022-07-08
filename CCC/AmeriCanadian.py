@@ -7,7 +7,7 @@
 # you may assume it is an American spelling, and that the equivalent Canadian spelling replaces
 # the or by our. Note: you should treat the letter y as a vowel.
 
-looper = True
+looper = True # using loopers
 while looper:
     word = input()
     if word == 'quit!':
