@@ -7,7 +7,7 @@ for i in range(10):
         at_index = email.find("@")
         plus_index = email.find("+")
         if plus_index > 0:
-            email = email[ :plus_index] + email[at_index :]
+            email = email[:plus_index] + email[at_index:]
         at_index = email.find("@")
         dot_index = email.find(".")
         while dot_index >= 0 and dot_index < at_index:
